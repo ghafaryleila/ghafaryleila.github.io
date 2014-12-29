@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>fonts demo</title>
+<style type="text/css" media="all">
+
+@font-face {
+  font-family: 'Koodak';
+  src: url('fonts/Koodak.otf?#'),  /* IE6–8 */
+       url('fonts/Koodak.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'RoyaBold';
+  src: url('fonts/RoyaBold.otf?#'),  /* IE6–8 */
+       url('fonts/RoyaBold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('fonts/Yekan.otf?#'),  /* IE6–8 */
+       url('fonts/Yekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'Mehr';
+  src: url('fonts/Mehr.otf?#'),  /* IE6–8 */
+       url('fonts/Mehr.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'Zar';
+  src: url('fonts/Zar.otf?#'),  /* IE6–8 */
+       url('fonts/Zar.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'Mitra';
+  src: url('fonts/Mitra.otf?#'),  /* IE6–8 */
+       url('fonts/Mitra.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'Roya';
+  src: url('fonts/Roya.otf?#'),  /* IE6–8 */
+       url('fonts/Roya.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+body {
+	background: #f6f6ec url(img/bg.png) left top;
+}
+
+#logo {
+	background: url(img/logo.png) right center no-repeat;
+	width: 830px;
+	margin: 30px auto 20px;
+	
+}
+
+#logo a {
+	text-indent: -9999em;
+	overflow: hidden;
+	display: block;
+	text-decoration: none;
+}
+
+#container {
+	background: #fff;
+	font-size: 20px;
+	width: 900px;
+	padding: 2em 0;
+	margin: 30px auto;
+	position: relative;
+	-webkit-border-radius: 12px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+	-moz-border-radius: 12px; /* FF1-3.6 */
+	border-radius: 12px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+	-webkit-box-shadow: 0px 0px 10px #cdcdc3; /* Saf3.0+, Chrome */
+	-moz-box-shadow: 0px 0px 10px #cdcdc3; /* FF3.5 - 3.6 */
+	box-shadow: 0px 0px 10px #cdcdc3; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+
+}
+
+#container div {
+	padding: 1em 2em;
+	-webkit-transition: background-color 0.3s ease-out;  /* Saf3.2+, Chrome */
+	-moz-transition: all 0.3s ease-out;  /* FF4+ */
+	-ms-transition: all 0.3s ease-out;  /* IE10? */
+	-o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+	transition: all 0.3s ease-out;
+	position: relative;  
+}
+
+#container div span {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	font-weight: bold;
+	color: #fff;
+	background: #C00;
+	font: bold 18px/1 "Times New Roman", Times, serif;
+	-webkit-border-radius: 0 0 5px 0;
+	-moz-border-radius: 0 0 5px 0;
+	border-radius: 0 0 5px 0;
+	display: none;
+}
+	
+
+#container .alarm {
+	margin: 0 230px 0 95px;
+	background: #FFFFBF;
+	border: 1px solid #FC0;
+	padding: 5px 10px;
+	position: absolute;
+	top: -80px;
+	left: -70px;
+}
+
+#container .alarm:hover {
+	background: #FFF2BE; 
+}
+
+#container .alarm p {
+	font-family: BYekan, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin: 0;
+}
+
+#container div:hover {
+	background: #E6E6CA;
+	text-shadow: 0 1px 0 #fff;
+}
+
+#container div:hover span {
+	text-shadow: none;
+	display: block;
+}
+
+#container h1 {
+	font-size: 32px;
+	font-weight: normal;
+}
+
+.Yekan {
+	font-family: Yekan, Arial, Helvetica, sans-serif;
+}
+
+.Koodak {
+	font-family: Koodak, Arial, Helvetica, sans-serif;
+}
+
+
+.Roya {
+	font-family: Roya, Arial, Helvetica, sans-serif;
+}
+
+.RoyaBold {
+	font-family: RoyaBold, Arial, Helvetica, sans-serif;
+}
+
+
+
+.Zar {
+	font-family: Zar, Arial, Helvetica, sans-serif;
+}
+
+.Mitra {
+	font-family: Mitra, Arial, Helvetica, sans-serif;
+}
+
+.Mehr {
+	font-family: Mehr, Arial, Helvetica, sans-serif;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="container">
+<div class="alarm"><p>برای کسب اطلاعات بیشتر در مورد شیوه صحیح پیوست کردن فونت ها به صفحه وب و متدهای مختلف موجود، <a href="http://www.wedesign.ir/css/css3-font-face-methods-and-optimized-font-firefox6">این مقاله را مطالعه کنید</a>.</p></div>
+<div class="Koodak">
+<h1>متن فارسی به همراه کلمات english برای پیوست به صفحه وب</h1>
+<p>یکی از مشکلاتی که در وب فارسی با آن مواجه هستیم، محدودیت فونت است. متاسفانه در وب فارسی ما محدود به سه فونت هستیم که بر روی تمامی سیستم ها نصب شده است. فونت arial, Tahoma و mono-type تنها فونتهایی هستند که می‌توانیم از آنها استفاده کنیم در حالی که برای زبان انگلیسی حداقل نزدیک به 10 فونت در دسترس است. 1234567890 ()"':,.،؛</p>
+<span>Koodak</span>
+</div>
+
+<div class="Yekan">
+<h1>متن فارسی به همراه کلمات english برای پیوست به صفحه وب</h1>
+<p>یکی از مشکلاتی که در وب فارسی با آن مواجه هستیم، محدودیت فونت است. متاسفانه در وب فارسی ما محدود به سه فونت هستیم که بر روی تمامی سیستم ها نصب شده است. فونت arial, Tahoma و mono-type تنها فونتهایی هستند که می‌توانیم از آنها استفاده کنیم در حالی که برای زبان انگلیسی حداقل نزدیک به 10 فونت در دسترس است. 1234567890 ()"':,.،؛</p>
+<span>Yekan</span>
+</div>
+
+<div class="Mehr">
+<h1>متن فارسی به همراه کلمات english برای پیوست به صفحه وب</h1>
+<p>یکی از مشکلاتی که در وب فارسی با آن مواجه هستیم، محدودیت فونت است. متاسفانه در وب فارسی ما محدود به سه فونت هستیم که بر روی تمامی سیستم ها نصب شده است. فونت arial, Tahoma و mono-type تنها فونتهایی هستند که می‌توانیم از آنها استفاده کنیم در حالی که برای زبان انگلیسی حداقل نزدیک به 10 فونت در دسترس است. 1234567890 ()"':,.،؛</p>
+<span>Mehr</span>
+</div>
+
+<div class="Mitra">
+<h1>متن فارسی به همراه کلمات english برای پیوست به صفحه وب</h1>
+<p>یکی از مشکلاتی که در وب فارسی با آن مواجه هستیم، محدودیت فونت است. متاسفانه در وب فارسی ما محدود به سه فونت هستیم که بر روی تمامی سیستم ها نصب شده است. فونت arial, Tahoma و mono-type تنها فونتهایی هستند که می‌توانیم از آنها استفاده کنیم در حالی که برای زبان انگلیسی حداقل نزدیک به 10 فونت در دسترس است. 1234567890 ()"':,.،؛</p>
+<span>Mitra</span>
+</div>
+
+
+<div class="Zar">
+<h1>متن فارسی به همراه کلمات english برای پیوست به صفحه وب</h1>
+<p>یکی از مشکلاتی که در وب فارسی با آن مواجه هستیم، محدودیت فونت است. متاسفانه در وب فارسی ما محدود به سه فونت هستیم که بر روی تمامی سیستم ها نصب شده است. فونت arial, Tahoma و mono-type تنها فونتهایی هستند که می‌توانیم از آنها استفاده کنیم در حالی که برای زبان انگلیسی حداقل نزدیک به 10 فونت در دسترس است. 1234567890 ()"':,.،؛</p>
+<span>Zar</span>
+</div>
+
+
+
+<div class="Roya">
+<h1>متن فارسی به همراه کلمات english برای پیوست به صفحه وب</h1>
+<p>یکی از مشکلاتی که در وب فارسی با آن مواجه هستیم، محدودیت فونت است. متاسفانه در وب فارسی ما محدود به سه فونت هستیم که بر روی تمامی سیستم ها نصب شده است. فونت arial, Tahoma و mono-type تنها فونتهایی هستند که می‌توانیم از آنها استفاده کنیم در حالی که برای زبان انگلیسی حداقل نزدیک به 10 فونت در دسترس است. 1234567890 ()"':,.،؛</p>
+<span>Roya</span>
+</div>
+
+<div class="RoyaBold">
+<h1>متن فارسی به همراه کلمات english برای پیوست به صفحه وب</h1>
+<p>یکی از مشکلاتی که در وب فارسی با آن مواجه هستیم، محدودیت فونت است. متاسفانه در وب فارسی ما محدود به سه فونت هستیم که بر روی تمامی سیستم ها نصب شده است. فونت arial, Tahoma و mono-type تنها فونتهایی هستند که می‌توانیم از آنها استفاده کنیم در حالی که برای زبان انگلیسی حداقل نزدیک به 10 فونت در دسترس است. 1234567890 ()"':,.،؛</p>
+<span>Roya Bold</span>
+</div>
+
+
+
+</div>
+</body>
+</html>
